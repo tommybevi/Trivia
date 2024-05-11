@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trivia</title>
+  <link type="text/css" rel="stylesheet" href="./style/style.css">
+  <script type="text/javascript" src="./javascript/quiz.js"></script>
+  <meta charset="UTF-8">
+
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://threejs.org/build/three.module.js"
+      }
+    }
+  </script>
+  <script type="module" src="./javascript/graphic.js"></script>
+
+</head>
+
+
+<body id="content">
+  <div id="graphics">
+    <div id="indications"></div>
+    <div id="timer"></div>
+    <div id="game">
+      <div id="survey">
+        <div id="infoBar">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="mask">
+    <h1>BOMB GAME</h1>
+    
+    <div>
+      IT'S A GAME WHERE YOU MUST DEFUSE A BOMB BY ANSWERING QUESTIONS THAT VARY DEPENDING ON THE COLOR OF THE WIRE SELECTED. FOR EACH CORRECT ANSWER, 30 SECONDS ARE ADDED TO THE TIMER. THE GOAL IS TO DEFUSE THE BOMB.
+    </div>
+    <div>
+      <br>
+      <li>
+        CHARACTER AND ANIMATIONS ARE FROM 
+        <a href="https://www.mixamo.com/#/">MIXAMO</a>
+      </li>
+      <li>TABLE AND ROOM ARE FROM 
+        <a href="https://sketchfab.com/feed">SKETCHFAB</a>
+      </li>
+      <li>SOUNDS ARE FROM 
+        <a href="https://pixabay.com/it/music/">PIXABAY</a>
+      </li>
+      <li>THE BOMB AND WIRES ARE CREATED BY THE DEVELOPER</li>
+    </div><br>
+    <div>
+      CHOOSE THE GAMEMODE(IF YOU DON'T CHOOSE IT GOES IN NORMAL):
+    </div><br>
+    <form name="mode">
+      <input type="radio" name="gamemode" id="normal" value="NORMAL">
+      <label for="normal">NORMAL: YOU HAVE TO ANSWER CORRECTLY TO EVERY QUESTION OF EVERY WIRE, YOU HAVE THREE LIVES AND THE QUESTIONS BECOME INCREASINGLY DIFFICULT AS YOU PROGRESS.</label><br><br>
+      <input type="radio" name="gamemode" id="timed" value="TIMED MODE">
+      <label for="timed">TIMED MODE: YOU HAVE 3 MINUTES IN WHICH YOU CAN CHOOSE EACH WIRE WITHOUT TIME LIMIT. BY ANSWER CORRECTLY YOU EARN 2 POINTS, IF YOU DON'T DO SO, ONE POINT WILL BE DEDUCTED. THE GOAL IS TO REACH 25 WHICH WILL NOT BE SHOWN TO YOU.</label><br><br>
+    <!--la scelta di non mostrare i punti è stata fatta apposta perchè il giocatore dopo aver raggiunto più di 25 punti potrebbe smettere di giocare-->
+    </form>
+    
+    
+    <div>LOADING...</div>
+
+  
+  <div id="play">CLICK HERE TO START THE GAME</div>
+
+</body>
+
+</html>

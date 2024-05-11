@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+}
+
+#survey{
+    margin-top: 10vh;
+    background-color:rgb(179, 102, 102);
+    border-radius: 4vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-bottom: 4vh;
+    width: 80vh;
+    height: 30vh;
+    font-size: 2em;
+}
+
+#game{
+    display: none;
+    padding-right: 50vh;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    font-size: 1em;
+    margin: 0vh;
+    margin-left: 0vh;
+}
+#modulo{
+    display: grid;
+}
+input{
+    margin-top: 1vh;
+    font-size: 1em;
+    background-color: rgb(165, 66, 66);
+}
+#infoBar{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+#graphics{
+    display: none;
+}
+
+#trophies{
+    margin: 0vh;
+}
+#play{
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+#play:hover{
+    cursor: pointer;
+}
+
+#button{
+    text-align-last: center;
+    color: white;
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+#mask{
+    text-align: left;
+    color: white;
+}
+
+#timer{
+    color: white;
+    display: block;
+    position: absolute;
+}
+#indications{
+    font-size: 2em;
+    position: absolute;
+    color: white;
+}
