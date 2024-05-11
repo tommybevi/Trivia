@@ -1,2 +1,2 @@
-# Trivia
+# TriviaBomb
 Progetto TriviaBomb
